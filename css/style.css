@@ -23,7 +23,7 @@
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
-    padding: 80px 0;
+    padding: 10px 0;
     max-width: 1200px;
 }
 .subtitle{
@@ -43,7 +43,7 @@
 }
 
 .hero .container{
-    padding: 0;
+    padding:10px;
 }
 .nav{
     display: flex;
@@ -68,6 +68,7 @@
     border: 1px solid #fff;
 }
 .nav_items--footer{
+    
     padding: 10px;
 }
 
@@ -119,6 +120,7 @@
 
 .presentation{
     padding-top: 0;
+    padding-bottom: 100;
     text-align: center;
 }
 
@@ -133,14 +135,14 @@
 
 .presentation_copy{
     width: 80;
-    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .about{
-    min-height: 400px;
+    min-height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 80px;
+    row-gap: 20px;
     justify-items: center;
     align-items: center;
 }
@@ -166,12 +168,14 @@
 /* Projects*/
 
 .projects{
+    margin-top: 50px;
     background: #f2f2f2;
+    
 }
 
 .projects_grid{
     display: grid;
-    height: 125px;
+    height: 150px;
     grid-template-areas: 
     "imge1 imge2 imge3";
     gap: 10px
@@ -231,23 +235,52 @@
 
 /* Footer */
 
-.footer{
-    background: var(--color-primary);
+/* .footer{
+    background-image: linear-gradient(red, blue,yellow);
+    
+} */
+
+footer{ 
+    height:50px;
+	background-image: url(http://www.keoniworld.com/wp-content/uploads/2016/06/swaying-field-grass.gif);
+  	  background-position: center bottom;
+	  background-size: 100% 85%;
+	  background-repeat: repeat-x;
+	  min-height: 20vh;
+  }
+  
+  footer {
+	text-align: center;
+	padding: 10px 0 20px ;
+	
 }
 
-.footer_grid{
+/* footer p {
+	color: #f8f8f8;
+	font-size: 14px;
+}
+
+footer a.totop {
+	color: #fff;
+	margin-bottom: 30px;
+}
+footer a.totop:focus {
+	outline: 0;
+} */
+
+/* .footer_grid{
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 20px;
     align-items: center;
-}
+} */
 
-.footer_title{
+/* .footer_title{
     font-weight: 400;
     color: #fff;
     font-size: 2rem;
-    margin-bottom: 30px;
-    text-align: center;
+    margin-bottom: 300px;
+    text-align: right var(--boton-padding);
 
 }
 
@@ -258,14 +291,14 @@
 
 footer_container-icons{
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 10px;
+    height: 10px;
     color: #fff;
     text-align: center;
     border: 1px solid #fff;
     border-radius: 50%;
 
-}
+} */
 
 
 
